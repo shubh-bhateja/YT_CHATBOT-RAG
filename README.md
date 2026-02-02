@@ -121,7 +121,7 @@ Feel free to use, modify, and share!
 
 ## 🙏 Acknowledgements
 
-- [Stanford CS YouTube](https://www.youtube.com/@StanfordOnline)
+- [CampusX](https://www.youtube.com/@campusx-official)
 - [LangChain](https://www.langchain.com/)
 - [HuggingFace](https://huggingface.co/)
 - [Streamlit](https://streamlit.io/)
