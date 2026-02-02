@@ -112,12 +112,6 @@ graph TD
 
 ---
 
-## 📄 License
-
-MIT License.  
-Feel free to use, modify, and share!
-
----
 
 ## 🙏 Acknowledgements
 
