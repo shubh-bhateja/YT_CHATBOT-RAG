@@ -55,7 +55,7 @@ graph TD
 - **Vector DB**: FAISS (In-Memory)
 - **Transcription**: Faster-Whisper, pytubefix
 - **Evaluation**: Ragas
-- **Styling**: Custom CSS (Glassmorphism / Dark Mode)
+
 
 ---
 
