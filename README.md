@@ -87,13 +87,3 @@ streamlit run app.py
 
 ---
 
-## 📝 Resume & Portfolio Bullet Points
-
-*   **Integrated a high-precision RAG pipeline** using Parent-Document Retrieval (PDR) and Hybrid Search (BM25 + FAISS) to improve context retrieval accuracy by 40%.
-*   **Implemented local AI fallback** using Faster-Whisper with int8 quantization, ensuring 100% video coverage while optimizing CPU/RAM usage.
-*   **Engineered a custom relevance gate** using cosine-similarity thresholds to mitigate AI hallucinations and ensure strict adherence to provided transcripts.
-
----
-
-## 🙏 Credits & Acknowledgments
-Built with 💖 using LangChain, Streamlit, and the incredible open-source AI community.
