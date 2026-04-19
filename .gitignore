@@ -3,10 +3,8 @@ __pycache__/
 *.pyo
 *.pyd
 .env
-YT_CHATBOT_V2/.env
-YT_CHATBOT_V2/temp_audio/
-YT_CHATBOT_V2/__pycache__/
-YT_CHATBOT_V2/streamlit_log.txt
+temp_audio/
+streamlit_log.txt
 *.sqlite3
 .DS_Store
 *.egg-info/

@@ -649,9 +649,9 @@ import os
 import pandas as pd
 from datasets import Dataset
 from ragas import evaluate
-from ragas.metrics import (
+from ragas.metrics.collections import (
     faithfulness,
-    answer_relevance,
+    answer_relevancy,
     context_recall,
 )
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
@@ -741,7 +741,7 @@ def run_evaluation(video_id="dQw4w9WgXcQ"): # Default to RickRoll for testing if
     try:
         result = evaluate(
             dataset,
-            metrics=[faithfulness, answer_relevance],
+            metrics=[faithfulness, answer_relevancy],
             llm=evaluator_llm,
             raise_exceptions=False
         )
