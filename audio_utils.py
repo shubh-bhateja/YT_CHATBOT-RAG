@@ -54,3 +54,5 @@ def cleanup_audio(audio_path):
     """Manual cleanup — kept for backward compatibility but prefer TemporaryDirectory."""
     if os.path.exists(audio_path):
         os.remove(audio_path)
+
+# End of file
