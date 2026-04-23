@@ -191,3 +191,5 @@ def normalize_doc_metadata(doc):
 def is_meta_question(prompt, meta_patterns):
     """Return True if the prompt matches any broad/meta question pattern."""
     return any(p in prompt.lower() for p in meta_patterns)
+
+# End of file
