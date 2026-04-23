@@ -476,3 +476,5 @@ else:
         "<p style='text-align:center; color:#475569;'>Paste a YouTube link above to get started</p>",
         unsafe_allow_html=True,
     )
+
+# End of file
