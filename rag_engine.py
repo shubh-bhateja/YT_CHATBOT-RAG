@@ -182,3 +182,5 @@ def generate_video_summary(llm, docs, meta):
         return response.content if hasattr(response, "content") else str(response)
     except Exception as e:
         return f"⚠️ Summary generation failed: {str(e)}"
+
+# End of file
