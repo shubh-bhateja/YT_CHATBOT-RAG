@@ -24,6 +24,29 @@ Built-in **Rerank Trace** dashboard shows you the "under the hood" logic for eve
 
 ---
 
+## 🏗️ System Architecture
+
+```mermaid
+graph TD
+    URL[YouTube URL] --> META[Metadata Ingestion]
+    URL --> TRAN[Transcript/Audio Fetch]
+    TRAN --> |No Captions| WHIS[Faster-Whisper Fallback]
+    WHIS --> CHUNKS[Chunking Strategy]
+    TRAN --> CHUNKS
+    CHUNKS --> PDR[Parent-Document Indexing]
+    CHUNKS --> BM25[BM25 Keyword Indexing]
+    
+    USER[User Question] --> RET[Hybrid Retrieval]
+    RET --> BM25
+    RET --> PDR
+    RET --> RERANK[Flashrank Rerank]
+    RERANK --> TRACE[Rerank Trace UI]
+    RERANK --> LLM[LLM Generation]
+    LLM --> UI[Streamlit UI with Deep Links]
+```
+
+---
+
 ## 🛠️ Tech Stack
 *   **Orchestration**: LangChain
 *   **Frontend**: Streamlit (with deep-linked timestamp citations)
