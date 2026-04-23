@@ -10,3 +10,4 @@ streamlit_log.txt
 *.egg-info/
 venv/
 *.csv
+# End of file
